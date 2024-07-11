@@ -34,11 +34,15 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/emptyNotesImage"
+            android:layout_width="378dp"
+            android:layout_height="579dp"
+            android:src="@drawable/emptybkg"
             android:visibility="gone"
-            android:src="@drawable/emptybkg"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="31dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
